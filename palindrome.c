@@ -1,6 +1,7 @@
 #include <stdbool.h>
 bool isPalindrome(int x)
 {
+    printf("Let's check whether the number is palindrome or not.");
     // Negative numers are not pallindrome
     if (x < 0)
         return false;
